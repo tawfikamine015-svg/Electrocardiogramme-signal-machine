@@ -1,4 +1,21 @@
-+Visualisation du signal brut et du signal filtré après l'addition de bruit artificiel afin de répliquer un environment clinique réel à l'aide d'un filtre pass-bas avec algorithme de détéction des battements du coeur et la mesure du BPM.
-Langue: Python(PyCharm IDE)
+# (!) Analyse de Signal Électrocardiogramme (ECG):
 
-Lib: NumPy, SciPy, Matplotlib
++Simulation d'un signal cardiaque "propre" à partir d'un signal brut bruité qui simule des interférences électromagnétique réelles, ce projet cherche à démontrer l'importance du traitement numérique des signaux dans les dispositifs médicaux modernes.
+
+## Fonctionnalités:
+- **Génération du signal**: Simulation d'une onde ECG réaliste.
+- **Injection du bruit**: Afin de répliquer les intérferences produites dans des conditions réelles.
+- **Traitement du signal**: Élimination des intérferences à l'aide d'un filtre pass-bas (Filtre de Butterworth de cinquième ordre)
+- **Visualisation**: Projection des résultats dans un graphe facile à lire.
+- **Analyse:** Traitement des résultats, calcul du BPM via les pics du graphe.
+
+## Outils:
+- **Langage**: Python
+- **IDE**: PyCharm
+- **Bibliothèques**: "NumPy" (Pour les calculs mathématiques)
+                     ,"SciPy" (Pour le traitement du signal et la détéction des pics)
+                     ,"Matplotlib" (Pour la visualisation graphique de l'onde)
+
+  ## Résultats:
+  
+  
