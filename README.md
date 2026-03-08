@@ -1,4 +1,4 @@
-# (!) Analyse de Signal Électrocardiogramme (ECG):
+# (!) Analyse de Signal Électrocardiogramme (ECG): 
 
 +Simulation d'un signal cardiaque "propre" à partir d'un signal brut bruité qui simule des interférences électromagnétique réelles, ce projet cherche à démontrer l'importance du traitement numérique des signaux dans les dispositifs médicaux modernes.
 
