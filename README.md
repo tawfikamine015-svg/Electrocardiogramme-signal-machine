@@ -16,6 +16,25 @@
                      ,"SciPy" (Pour le traitement du signal et la détéction des pics)
                      ,"Matplotlib" (Pour la visualisation graphique de l'onde)
 
-  ## Résultats:
-  
-  
+## Résultats:
+Le script génère un graphe comparatif:
+- **Signal Brut (bleu)**: Le signal avec interférences.
+- **Signal Filtré (rouge)**: Le signal nettoyé prêt pour l'analyse médicale.
+
+<img width="593" height="260" alt="image" src="https://github.com/user-attachments/assets/db6b6c3f-3f43-474c-9ea6-7315cd273b3a" />
+
+
+->*Le script contient aussi un algorithme capable d'analyser le graphe et en déduire les battements par minutes du coeur (BPM) grâce au pics du signal filtré.*
+
+
+<img width="579" height="272" alt="image" src="https://github.com/user-attachments/assets/5f3d4828-aa45-4a2a-8fca-c8b020abede8" />
+
+## Remarques:
+-> En ajustant la fréquence de coupure et l'ordre du filtre, il est possible d'optimiser le rapport signal sur bruit.
+
+> b, a = signal.buffer("ordre", "fréquence de coupure")
+
+## Réflexion:
+-> Ce projet m'a permis de comprendre comment l'informatique peut sauver des vies en rendant les diagnostiques plus précis, même avec des capteurs à bas coût.
+
+
