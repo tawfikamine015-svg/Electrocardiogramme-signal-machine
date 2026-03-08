@@ -1,0 +1,1 @@
++Visualisation du signal brut et du signal filtré après l'addition e bruit artificiel afin de répliquer un environment clinique réel à l'aide d'un filtre pass-bas avec algorithme de détéction des battements du coeur et la mesure du BPM.
